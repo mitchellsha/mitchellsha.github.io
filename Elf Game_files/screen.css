@@ -1,0 +1,30 @@
+body {
+    background-color: red;
+    text-align: center;
+}
+
+#framedDiv {
+    background-image: url('images/frame.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;  
+    display: inline-block;
+}
+
+#framedDiv > canvas {
+    margin-top: 56px;
+}
+
+::-moz-selection{
+    background-color:Transparent;
+    color:#000;
+}
+
+::selection {
+    background-color:Transparent;
+    color:#000;
+}
+
+html, body {
+  height: 100%;
+}
